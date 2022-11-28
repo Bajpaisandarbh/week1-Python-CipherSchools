@@ -4,8 +4,7 @@ input_number = int(input("Enter a number: "))
 if input_number==winning_number:
     print("YOU WIN!!!")
 else:
-    print("YOU LOSE!!!")
-if input_number>winning_number:
-    print("Too high")
-    if input_number<winning_number:
-        print("Too low")
+    if input_number>winnig_number:
+        print("Too High")
+    else:
+        print("Too Low")
